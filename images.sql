@@ -29,7 +29,7 @@ USE `images`;
 -- Tábla szerkezet ehhez a táblához `images`
 --
 
-CREATE TABLE `images` (
+CREATE TABLE IF NOT EXISTS `images` (
   `id` int(11) NOT NULL,
   `data` longblob NOT NULL,
   `mime` varchar(255) NOT NULL,

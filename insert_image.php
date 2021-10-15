@@ -1,4 +1,7 @@
 <h1>ok</h1>
+<div>
+    <a href="index.php">Vissza a kezdőlapra</a>
+</div>
 <?php
 var_dump($_FILES);
 
